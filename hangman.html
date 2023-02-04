@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>HANGMAN!</title>
+
+<style>
+	* { font: 18px Calibri; }
+</style>
+</head>
+
+<body>
+	<h2>
+    	Guess a letter!...if you dare (Max. 1 chars limit)
+    </h2>
+    
+    <div>
+		<textarea id="tArea" cols="10" maxlength="1"></textarea>
+    </div>
+</body> 
+</html>
+
+// OR this for counter
+
+<!doctype html>
+<html>
+<body>
+    <h3>
+        Hangman!
+    </h3>
+    
+    <div>
+        <textarea id="tArea" cols="10" 
+            oninput="limitChar(this)" maxlength="1"></textarea>
+
+        <p id="charCounter">1 Characters limit</p>
+    </div>
+</body>
