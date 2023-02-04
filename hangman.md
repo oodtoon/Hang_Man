@@ -8,11 +8,11 @@
 
 
 # Game State
-* Word bank = array of strings
-* letters guessed (array of letters)
-* guess count (number)
-* target word (string)
-* target word string tracker
+* Word bank = array of strings %
+* letters guessed (array of letters) %
+* guess count (number) %
+* target word (string) %
+* target word string tracker 
 
 
 
